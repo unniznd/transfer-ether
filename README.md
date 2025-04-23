@@ -78,4 +78,6 @@ console.log(
 
 ### Note: When running functions in the truffle console, make sure to use `await` for asynchronous functions.
 
+### Note: Remember to replace `accounts[0]` and `accounts[1]` with the actual account addresses you want to use. You can get the account addresses from the Ganache UI or by running `web3.eth.getAccounts()` in the console.
+
 ### Note: If you are getting an error like opcode missing while compiling, use lower version of solidity (0.8.0 or 0.7.0) in the contract.
